@@ -87,8 +87,8 @@ def main():
                 print "Unable to connect to server "
 
             else:
-                table = data_table(serverData)
-                results = process_data(table)
+                table = dataTable(serverData)
+                results = processData(table)
 
                 print "Image requests account for {0}% of all requests".format(results[0])
                 print "{0} is the most popular browser".format(results[1])
